@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basketball Scorecard</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <link href="./assets/css/index.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="column">
+            <h3>HOME</h3>
+            <h2 class="score" id="home-score">0</h2>
+            <div>
+                <button onclick="addOneToHome()">+1</button>
+                <button onclick="addTwoToHome()">+2</button>
+                <button onclick="addThreeToHome()">+3</button>
+            </div>
+        </div>
+        <div class="column">
+            <h3>VISITOR</h3>
+            <h2 class="score" id="guest-score">0</h2>
+            <div>
+                <button onclick="addOneToGuest()">+1</button>
+                <button onclick="addTwoToGuest()">+2</button>
+                <button onclick="addThreeToGuest()">+3</button>
+                </div>
+        </div>
+    </div>
+    <script src="./assets/javascript/index.js"></script>
+</body>
+</html>
